@@ -5,6 +5,9 @@ const App = () => {
     return(
         <>
             Hello there from app world
+            <div className="hero">
+
+            </div>
         </>
     )
 }
