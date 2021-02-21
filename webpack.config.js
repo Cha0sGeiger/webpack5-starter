@@ -35,7 +35,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.jsx?$/,
+        test: /\.(ts|js)x?$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
@@ -51,7 +51,7 @@ module.exports = {
   })],
 
   resolve: {
-    extensions: [".js", ".jsx"],
+    extensions: [".tsx", ".ts", ".js"],
   },
   devtool: "source-map",
   devServer: {
