@@ -1,13 +1,4 @@
-import "./styles/index.scss";
+import { render } from 'react-dom';
+import App from './App';
 
-const version = {
-    hero : 'Mark'
-}
-
-const update = {
-    ...version,
-    newHero : 'Baby Driver'
-}
-
-console.log(version);
-console.log(update);
+render(<App />, document.getElementById("root"));
